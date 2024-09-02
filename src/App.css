@@ -1,0 +1,128 @@
+:root{
+  --w : 400px;
+  --h:500px;
+}
+body{
+  background: rgb(45, 45, 45);
+}
+.books, .borrowed, .users{
+  margin: 90px 0px 105px auto;
+  background: rgb(45, 45, 45);
+  width: var(--w);
+  height: var(--h);
+  border-radius: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.borrowed{
+  margin-left: 10%;
+  margin-right: auto;
+}
+.book, .borrow, .user{
+  width: 400px;
+  height: 67px;
+  margin: 50px auto 0px auto;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+}
+button{
+  height: max-content;
+  margin: auto 3px auto 0px;
+  outline: none;
+  background-color: brown;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  cursor: pointer;
+}
+.info{
+  margin-left: 10px;
+}
+.book p{
+  width: 240px;
+  margin-top: 9px;
+}
+.status{
+  margin-top: 10px;
+  font-size:10px;
+}
+.options{
+  button{
+    margin-right: 20px;
+  }
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.signin{
+  margin: 170px auto auto auto;
+  width: 350px;
+  height: 300px;
+  background: black;
+  border-radius: 7px;
+  form{
+    display: flex;
+    flex-direction: column;
+    button{
+      margin: 27px auto 0px auto;
+    }
+  }
+  input{
+    outline: 0;
+    width: 150px;
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px auto auto auto;
+  }
+}
+.head{
+      color: aliceblue;
+      text-align: center;
+      margin: 21px 0px 0px 0px;
+}
+
+.signup{
+  margin: 150px auto auto auto;
+  width: 450px;
+  height: 350px;
+  background: black;
+  border-radius: 7px;
+  form{
+    display: flex;
+    flex-direction: column;
+    button{
+      margin: 27px auto 0px auto;
+    }
+  }
+  input{
+    outline: 0;
+    width: 150px;
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px auto auto auto;
+  }
+  label{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    margin-bottom: none;
+  }
+}
+
+form input{
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 3.5px;
+}
